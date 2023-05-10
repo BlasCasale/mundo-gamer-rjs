@@ -1,0 +1,9 @@
+.box--form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: #3A7CA5;
+    height: 550px;
+}

@@ -1,0 +1,23 @@
+@media screen and (min-width: 320px) {
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .layout {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .layout {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,39 @@
+.box--checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #3A7CA5;
+    padding: 20px 0px;
+}
+
+.box--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.title--checkout {
+    background-color: #3A7CA5;
+}
+
+.form--checkout {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px 0px;
+    gap: 20px;
+    background-color: #fff;
+    border: solid 4px #003554;
+    border-radius: 20px;
+}
+
+.legend--checkout {
+    color: #003554;
+}

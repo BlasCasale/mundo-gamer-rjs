@@ -1,0 +1,51 @@
+.box--cardUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #3A7CA5;
+    padding: 20px 0px;
+}
+
+.box--input {
+    width: 400px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    background-color: #3A7CA5;
+}
+
+.box--input:last-child {
+    height: 100px;
+}
+
+.input--user {
+    width: 180px;
+    height: 25px;
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+}
+
+.label--user {
+    color: white;
+    font-weight: bold;
+}
+
+.btn--user {
+    border: none;
+    background-color: #fafafa;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn--user:hover {
+    background-color: #003554;
+    color: white;
+    cursor: pointer;
+}

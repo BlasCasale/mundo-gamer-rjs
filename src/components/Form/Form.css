@@ -1,0 +1,9 @@
+.fieldset--login {
+    width: 320px;
+    height: 200px;
+    padding: 5px;
+    margin: 20px 0px;
+    background-color: #fff;
+    border: solid 4px #003554;
+    border-radius: 30px;
+}

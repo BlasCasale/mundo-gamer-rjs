@@ -1,0 +1,21 @@
+.card--btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3A7CA5;
+    color: #fff;
+}
+
+.add--btn {
+    width: 140px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3A7CA5;
+    color: #fff;
+}
+
+.add--btn:hover {
+    background-color: #003554;
+}

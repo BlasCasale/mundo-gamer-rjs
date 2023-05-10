@@ -1,0 +1,40 @@
+.cart--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #3A7CA5;
+    padding: 30px 0px;
+}
+
+.empty--cart {
+    border: none;
+    background-color: #003554;
+    border-radius: 15px;
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.empty--cart:hover {
+    background-color: #fafafa;
+    color: #003554;
+}
+
+.box--session {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box--session-p {
+    background-color: #003554;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fafafa;
+}
