@@ -1,10 +1,18 @@
-.card--cart {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 30px;
-    width: 500px;
-    height: 60px;
-    background-color: #fafafa;
-    border-radius: 25px;
+@media screen and (min-width:320px) {
+    .card--cart{
+        width: 310px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        height: 60px;
+        background-color: #fafafa;
+        border-radius: 25px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .card--cart {
+        width: 500px;
+    }   
 }
