@@ -1,3 +1,10 @@
 .itemContainer {
     background-color: #79ADDC;
 }
+.input--box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 20px;
+}

@@ -3,12 +3,13 @@ import './Item.css'
 import { Link } from 'react-router-dom'
 
 const Item = ({ name, img, price, id, stock }) => {
+
   return (
     <div className='card'>
 
       <img src={img} alt={name} className='card--img' />
 
-      <p className='card--p'>{name}</p>
+      <p className='card--p'>{name.toUpperCase()}</p>
 
       <p className='price'>${price}</p>
 
